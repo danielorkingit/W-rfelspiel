@@ -62,7 +62,7 @@ public class Spiel {
 			s.punkte += x;
 		} 
 		
-		if(s.punkte == 2 && s.gewertet == 4) {
+		if(s.punkte == 15 && s.gewertet == 4) {
 			return 1;
 		} else {
 			return 0;

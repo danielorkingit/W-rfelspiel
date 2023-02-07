@@ -2,9 +2,9 @@ public class Main{
 	
 	public static void main(String[] args) {
 		
-		Spieler[] x = {new Spieler("Daniel"), new Spieler("hej")};
+		Spieler[] spieler = {new Spieler("Martin"), new Spieler("Martina"), new Spieler("Martinius")};
 		
-		Spiel spiel = new Spiel(5, x);
+		Spiel spiel = new Spiel(5,spieler);
 		spiel.startGame();
 		
 	}
